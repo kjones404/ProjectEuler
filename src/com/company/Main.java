@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Starting program");
 
         Question2 question = new Question2();
-        question.palindrome();
+        question.noRemainder();
 
     }
 }
