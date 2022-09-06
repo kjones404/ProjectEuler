@@ -13,7 +13,7 @@ public class Question2 {
 
     Find the largest palindrome made from the product of two 3-digit numbers.
      */
-    public void palindome() {
+    public void palindrome() {
 
         List<Integer> resultList = new ArrayList<>();
 

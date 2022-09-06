@@ -1,6 +1,5 @@
 package com.company;
 
-import com.company.questions.Question1;
 import com.company.questions.Question2;
 
 public class Main {
@@ -10,7 +9,7 @@ public class Main {
         System.out.println("Starting program");
 
         Question2 question = new Question2();
-        question.palindome();
+        question.palindrome();
 
     }
 }
