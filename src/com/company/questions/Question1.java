@@ -9,15 +9,14 @@ public class Question1 {
 
     public void multiplesOfThreeOrFive() {
         int limit = 1000;
-        List<Integer> multipleArr = new ArrayList<>();
+        int sum = 0;
 
         for (int i = 1; i < limit; i++) {
             if (i % 3 == 0 || i % 5 == 0) {
-                multipleArr.add(i);
+                sum = sum + i;
             }
         }
-        int count = multipleArr.stream().mapToInt(Integer::intValue).sum();
-        System.out.println(count);
+        System.out.println(sum);
     }
 
     /*
