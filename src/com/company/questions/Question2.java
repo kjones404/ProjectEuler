@@ -17,7 +17,7 @@ public class Question2 {
 
         List<Integer> resultList = new ArrayList<>();
 
-        for (int i = 0; i < 2000; i ++) {
+        for (int i = 0; i < 1000000; i ++) {
             int p1 = ThreadLocalRandom.current().nextInt(100, 999);
             int p2 = ThreadLocalRandom.current().nextInt(100, 999);
 
